@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "lato", sans-serif;
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+
+h2 {
+	font-size: 5rem;
+	font-weight: bold;
+	padding: 1em;
+}
+
+.coming-soon {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img {
+	height: 70vh;
+	display: block;
+	margin: auto auto;
+	width: 40vw;
+	clip-path: circle();
+}
+
+.countd {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	animation: flash;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+	font-size: 3rem;
+}
